@@ -1,0 +1,59 @@
+from dataclasses import dataclass
+from typing import Optional
+
+@dataclass
+class Vehicle:
+    vehicle_id: Optional[str] = None 
+    quote_id: Optional[str] = None 
+    update_vehicle_indicator: Optional[str] = None 
+    vehicle_index: Optional[int] = None 
+    gbb_vehicle_version: Optional[str] = None 
+    vehicle_year: Optional[int] = None 
+    vehicle_value_ocn: Optional[int] = None 
+    vehicle_value_stated: Optional[int] = None 
+    vehicle_classification: Optional[str] = None 
+    vehicle_category: Optional[str] = None 
+    vehicle_sub_category: Optional[str] = None 
+    vehicle_item_type: Optional[str] = None 
+    rating_classification: Optional[str] = None
+    fleet_class: Optional[str] = None 
+    vehicle_count: Optional[int] = None 
+    driver_count: Optional[int] = None 
+    seating_capacity: Optional[str] = None 
+    nemt_intent: Optional[str] = None 
+    amish_taxi: Optional[str] = None 
+    for_hire_indicator: Optional[str] = None 
+    modified_limo: Optional[str] = None 
+    hazmat_indicator: Optional[str] = None 
+    personal_use: Optional[str] = None 
+    sublease_vehicle: Optional[str] = None 
+    is_owner_operated: Optional[str] = None 
+    is_operated_by_employees: Optional[str] = None 
+    is_covered_by_workers_comp: Optional[str] = None 
+    age_group_index: Optional[str] = None 
+    capable_dumping: Optional[str] = None 
+    has_mechanical_lift: Optional[str] = None 
+    liability_increased_limit: Optional[int] = None
+    liability_limit_type: Optional[str] = None 
+    liability_deductible: Optional[int] = None
+    comp_peril_option: Optional[str] = None 
+    comp_limit: Optional[str] = None 
+    coll_limit: Optional[str] = None 
+    operator_license_limit: Optional[str] = None 
+    operator_driving_context: Optional[str] = None 
+    vehicle_is_motorized: Optional[str] = None 
+    trailer_count: Optional[str] = None 
+    cdpf_year: Optional[str] = None 
+    cdpf_make: Optional[str] = None 
+    cdpf_model: Optional[str] = None 
+    cdpf_value: Optional[str] = None 
+    cdpf_vin: Optional[str] = None 
+    cdpf_vehicle_weight: Optional[str] = None 
+    liability_symbol_relativity: Optional[str] = None 
+    liability_symbol: Optional[str] = None 
+    liability_symbol_ocp_relativity: Optional[str] = None 
+    liability_symbol_ocp: Optional[str] = None 
+    collision_symbol_relativity: Optional[str] = None 
+    collision_symbol: Optional[str] = None 
+    comprehensive_symbol_relativity: Optional[str] = None 
+    comprehensive_symbol: Optional[str] = None 

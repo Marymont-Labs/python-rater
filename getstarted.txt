@@ -1,0 +1,2 @@
+run this from powershell to set up the virtual environment:
+.\.venv\Scripts\Activate.ps1
