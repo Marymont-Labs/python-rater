@@ -83,7 +83,6 @@ def build_quote():
     vehicle_2_data = get_vehicle_data(this_vehicle_2_type)
     vehicle_3_data = get_vehicle_data(this_vehicle_3_type)
 
-
     # Driver inputs
 
     # driver 1
