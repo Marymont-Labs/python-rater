@@ -120,6 +120,10 @@ from rating.engine.rate_parts.rate_category import (
     fetch_rate_category_comprehensive_factor,
 )
 
+from rating.engine.premium_calculator.premium_calculator import (
+  premium_generator
+)
+
 logger = logging.getLogger(__name__)
 
 
@@ -143,13 +147,13 @@ RATE_PART_FETCHERS = [
     # fetch_raca_ocp_collision_rate,
 
     # ── Row 3: Loss Cost Multiplier  ─────────────────────────
-    # fetch_lcm_liability_rate,
-    # fetch_lcm_pip_rate,
-    # fetch_lcm_medpay_rate,
-    # fetch_lcm_collision_rate,
-    # fetch_lcm_comprehensive_rate,
-    # fetch_lcm_um_rate,
-    # fetch_lcm_uim_rate,
+    fetch_lcm_liability_rate,
+    fetch_lcm_pip_rate,
+    fetch_lcm_medpay_rate,
+    fetch_lcm_collision_rate,
+    fetch_lcm_comprehensive_rate,
+    fetch_lcm_um_rate,
+    fetch_lcm_uim_rate,
 
     # ── Row 4: Driver Score / Policy Tier ───────────────────
     # fetch_policy_tier_liability_rate,
@@ -257,12 +261,15 @@ class RatingEngine:
             )
 
         # ── Phase 3: Assemble output ──────────────────────────────────────────
+        # filter empty {} placeholders before calucating
+        valid_rate_parts = [r for r in all_rate_parts if r]
+        premium_summary = premium_generator(valid_rate_parts)
         return {
             "quoteVersionId": qv.quote_version_id,
             "gbbName": qv.quote_version_name,
             "rateVersionKey": qv.quote_version_rate_key,
             "gbbData": [
-                [],              # gbbData[0]: premium summaries (added in next step)
+                premium_summary,              # gbbData[0]: premium summaries (added in next step)
                 all_rate_parts,  # gbbData[1]: full rate part audit trail
             ]
         }

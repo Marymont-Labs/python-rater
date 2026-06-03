@@ -50,6 +50,7 @@ def build_quote():
     current_model_year = datetime.today().strftime("%Y")
 
     # vehicle 1 inputs:
+    this_vehicle_1_index = 1
     this_vehicle_1_type = "Sedan Taxicab – Owner – driver"
     this_vehicle_1_year = 2015
     this_vehicle_1_ocn = 30000
@@ -59,6 +60,7 @@ def build_quote():
     this_vehicle_1_is_operated_by_employees = "yes"
 
     # vehicle 2 inputs:
+    this_vehicle_2_index = 2
     this_vehicle_2_type = "Utility Trailer"
     this_vehicle_2_year = 2020
     this_vehicle_2_ocn = 5500
@@ -68,6 +70,7 @@ def build_quote():
     this_vehicle_2_is_operated_by_employees = "yes"
 
     # vehicle 3 inputs:
+    this_vehicle_3_index = 3
     this_vehicle_3_type = "Sport Utility Vehicle"
     this_vehicle_3_year = 2019
     this_vehicle_3_ocn = 35000
@@ -108,7 +111,7 @@ def build_quote():
         vehicle_id =str(uuid4()), 
         quote_id = this_quote_id,
         update_vehicle_indicator = None, 
-        vehicle_index = 1, 
+        vehicle_index = this_vehicle_1_index, 
         gbb_vehicle_version = None, 
         vehicle_year = this_vehicle_1_year, 
         vehicle_value_ocn = this_vehicle_1_ocn, 
@@ -164,7 +167,7 @@ def build_quote():
         vehicle_id =str(uuid4()), 
         quote_id = this_quote_id,
         update_vehicle_indicator = None, 
-        vehicle_index = 2, 
+        vehicle_index = this_vehicle_2_index, 
         gbb_vehicle_version = None, 
         vehicle_year = this_vehicle_2_year, 
         vehicle_value_ocn = this_vehicle_2_ocn, 
@@ -221,7 +224,7 @@ def build_quote():
         vehicle_id =str(uuid4()), 
         quote_id = this_quote_id,
         update_vehicle_indicator = None, 
-        vehicle_index = 2, 
+        vehicle_index = this_vehicle_3_index, 
         gbb_vehicle_version = None, 
         vehicle_year = this_vehicle_3_year, 
         vehicle_value_ocn = this_vehicle_3_ocn, 
