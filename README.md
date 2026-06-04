@@ -1,11 +1,11 @@
-# Python ISO Commercial Auto Rating Engine DRAFT OUTLINE
+# Python ISO Commercial Auto Rating Engine
 
 ## Overview
 
 This is a dynamic commercial auto rating and pricing engine code in
 python and integrated with AWS S3 buckets. It solves the complicated
 problem of pricing an insurance quote for multiple vehicles, drivers,
-and states. This tool would be used by actuarial analysts to validate
+and states. This tool could be used by actuarial analysts to validate
 current rates and model changes to rates. It could be integrated
 into policy administration systems like Majesco other pricing analytic
 systems like Hyperexponential.
@@ -43,7 +43,7 @@ Look at rating/input/sample_quote. This is nested quote object.
 A quote is composed of 3 quote versions (good, better, and best).
 Each quote version has one to many vehicles and drivers.
 
-## Sample Input
+## Sample Output
 
 Look at rating/sample_output/data.json. This has both the
 quote/quote_version/vehicles/drivers detail as the quote input.
@@ -54,32 +54,51 @@ It also has the rating output included in the json file.
 - Language: Python
 - Key modules:
   - data definition models: quote, quote_version, vehicle, driver, rate_part
+  - configurable quote for multiple quote versions, one to many vehicles and drivers.
   - rating engine: vehicle_context, rating_engine, dataset_loader
-  - rate_parts:
-  - premium_calculator:
+  - rate_parts:loss cost, age group, primary & secondary classes, fleet size,
+    increased limits, naics, original cost new, liability and pd deductibes, policy tier,
+    raca adjustment, loss cost multipliers, truckload dumping
+  - premium_calculator: premium calculated at the vehicle level to support a UI grid
+    of coverage types as columns and rates and factors as rows
+  - dataset_loader: prefetches all rate file datasets from S3 before the logic to filter
+    for a given rate is executed
+- Amazon S3 bucket to store the rates files for OH, VA, and MD. It also stores other
+  files/data to define default data elements as well as support or emulate an online
+  quoting experience.
+- The starting point for the rater was harmonizing and flattening the data files provided
+  by Verisk in their Excel-based rater. There are about 5 states that are notoriously
+  complicated from a rating perspective. I asked myself a basic question: what if there a
+  52nd (50 states plus Washington DC) state that had all of the most complicated
+  elements of the other states? If we can solve for the hardest problem, then all the states
+  will align. From this, I was able to create a universal data design such that the
+  state-by-state files look identical and the structure supports both business auto and
+  public auto. One key benefit of this approach, and why I think this rater is better than many,
+  is that much of the logic is pushed to the data layer. In other words, there is no logic that
+  says "if this state then do X, but if it is that state then do Y." A system like that would
+  never get off the ground. It would be a nightmare to test.
 
-- Amazon S3 bucket to store the rates files for OH, VA, and MD.
-  It also stores other files/data to define default data elements
-  as well as support or emulate an online quoting experience.
-- How the rating logic is organized (factors,
-  modifiers, validation)
+## Insurance Domain Context And Related Production Experience
 
-## Insurance Domain Context TODO
+This is a very close relica of a commercial auto rater I built
+for Forge Insurance to support a mid-term conversion. The original
+version was written in NextJS and JavaScript. It had API calls to
+LexisNexis for Commercial Data Prefill, Attact Scoring, and CLUE.
+There was also API calls to Verisk for Symbol rating and another
+API to VIN Audit to fetch vehicle values. There are attributes in the
+quote version, driver, and vehicle models that could collect the data
+elements from these API calls. In this Python model, I am not making
+those API calls. Rather, I am just showing where those services
+would come into play
 
-Brief note on how this maps to a real production
-environment — how this payload would feed a policy
-admin system, connect to third-party data sources
-like Verisk or LexisNexis, integrate with a
-Majesco-style API layer.
-This is what separates your repo from a generic
-Python exercise.
+## Finally...
 
-## Related Production Experience TODO
-
-2-3 sentences referencing Forge Insurance — that
-this engine is a Python reconstruction of a
-production rating and quoting system you designed
-and built. Link to your LinkedIn.
+The original rater was JavaScript-based, web-enabled, had capabilities to
+ingest .csv rate files and convert them to .json. It also supported a
+best-in-class commercial auto quote. I was motivated to recreate this in
+Python to improve my Python skills. I learned a lot about JavaScript when
+I wrote it the first time and I learned a lot by doing this in Python.
+Get better every day!
 
 ## Author
 
