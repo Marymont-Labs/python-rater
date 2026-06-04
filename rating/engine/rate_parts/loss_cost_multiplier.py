@@ -3,16 +3,12 @@
 # Loss Cost Multiplier rates are read directly from the quote version object
 #
 
-
 from uuid import uuid4
 from typing import Optional
 from rating.engine.vehicle_context import VehicleRatingContext
 
-
 RATE_PART_CATEGORY = "Lost Cost Multiplier"
 DATASET_NAME = "Lost Cost Multiplier"
-
-
 
 # ── One function per coverage ─────────────────────────────────────────────────
 

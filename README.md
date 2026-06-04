@@ -8,12 +8,12 @@
 A dynamic commercial auto rating and pricing engine written in Python
 and integrated with AWS S3. Solves the complex problem of pricing
 insurance quotes across multiple vehicles, drivers, and states using
-ISO's standardized rating framework. It solves the complicated
-problem of pricing an insurance quote for multiple vehicles, drivers,
-and states. This tool could be used by actuarial analysts to validate
-current rates and model changes to rates. It could be integrated
-into policy administration systems like Majesco other pricing analytic
-systems like Hyperexponential.
+ISO's standardized rating framework.This tool could be used by actuarial
+analysts to validate current rates and model changes to rates. It is a
+faster and more nimble tool for creating, testing, anlyzing, and changing
+insurance rates than relying on expensive and rigid policy administrative
+systems. Yet, it could be integrated into policy administration systems like
+Majesco other pricing analytic systems like Hyperexponential.
 
 ## Background: What is ISO Commercial Auto Rating?
 
@@ -36,11 +36,11 @@ complicated from a rating perspective. I asked myself a basic question: what if 
 52nd (50 states plus Washington DC) state that had all of the most complicated
 elements of the other states? If we can solve for the hardest problem, then all the states
 will align. From this, I was able to create a universal data design such that the
-state-by-state files look identical and the structure supports both business auto and
-public auto. One key benefit of this approach, and why I think this rater is better than many,
-is that much of the logic is pushed to the data layer. In other words, there is no logic that
-says "if this state then do X, but if it is that state then do Y." A system like that would
-never get off the ground. It would be a nightmare to test.
+state-by-state files look identical (but contain different rates/factors) and the structure
+supports both business auto and public auto. One key benefit of this approach, and why I
+think this rater is better than many, is that much of the logic is pushed to the data layer.
+In other words, there is no logic that says "if this state then do X, but if it is that state
+then do Y." A system like that would never get off the ground. It would be a nightmare to test.
 
 ## What This Engine Does
 

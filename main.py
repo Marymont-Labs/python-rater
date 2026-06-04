@@ -20,7 +20,7 @@ def main():
     print("******************** WRITING OUT JSON QUOTE AND RATING RESULT *****************************")
     print(result_json)
     output_folder = "./rating/sample_output"
-    file_path = os.path.join(output_folder, "data.json")
+    file_path = os.path.join(output_folder, "output_data.json")
     os.makedirs(output_folder, exist_ok=True)
 
     with open(file_path, "w", encoding="utf-8") as file:
