@@ -20,16 +20,12 @@ import json
 import logging
 from typing import Any, Optional, Tuple
 import os
-from dotenv import load_dotenv
 
 from rating.models.quote_version import QuoteVersion
-from rating.services.s3_client import s3
+from rating.services.s3_client import s3, BUCKET_NAME
 
 logger = logging.getLogger(__name__)
 # Load variables from the .env file
-load_dotenv()
-
-BUCKET_NAME = os.getenv("BUCKET_NAME")
 
 
 # ── S3 fetch primitive ────────────────────────────────────────────────────────

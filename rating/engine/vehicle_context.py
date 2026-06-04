@@ -195,18 +195,6 @@ class VehicleRatingContext:
     def uimbi_limit_value(self) -> Optional[str]:
         return self.quote_version.uimbi_limit_value
 
-    # @property
-    # def liability_limit_type(self) -> Optional[str]:
-    #     return self.quote_version.liability_limit_type
-
-    # @property
-    # def liability_increased_limit(self) -> Optional[str]:
-    #     return self.quote_version.liability_increased_limits
-
-    # @property
-    # def liability_deductible(self) -> Optional[str]:
-    #     return self.quote_version.liability_deductible
-
     @property
     def paid_in_full_discount(self) -> Optional[str]:
         return self.quote_version.paid_in_full_discount

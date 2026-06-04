@@ -1,11 +1,11 @@
 [
     {
-        "quoteId": "cd2a8147-3373-43e8-85a3-d22f7d96bb10",
+        "quoteId": "32739fbc-ce73-4cf9-8063-ac40a7f37832",
         "quoteVersionData": [
             {
-                "quoteVersionId": "b3f4541b-0a15-4d6e-a216-829c34bc3f22",
+                "quoteVersionId": "a8c5b43e-dcd3-4ecd-8d4b-7fabbae53cd8",
                 "gbbName": "Good",
-                "rateVersionKey": "public/quoteversionrate/b3f4541b-0a15-4d6e-a216-829c34bc3f22.json",
+                "rateVersionKey": "public/quoteversionrate/a8c5b43e-dcd3-4ecd-8d4b-7fabbae53cd8.json",
                 "gbbData": [
                     [
                         {
@@ -13,36 +13,36 @@
                             "rateData": [
                                 {
                                     "vehicleIndex": 1,
-                                    "premium": 3193.6000000000004
+                                    "premium": 1.6
                                 },
                                 {
                                     "vehicleIndex": 2,
-                                    "premium": 553.6
+                                    "premium": 1.6
                                 },
                                 {
                                     "vehicleIndex": 3,
-                                    "premium": 432.0
+                                    "premium": 1.6
                                 }
                             ],
-                            "rateTotals": 4179.200000000001
+                            "rateTotals": 4.800000000000001
                         },
                         {
                             "rateName": "MedPay",
                             "rateData": [
                                 {
                                     "vehicleIndex": 1,
-                                    "premium": 25.6
+                                    "premium": 1.6
                                 },
                                 {
                                     "vehicleIndex": 2,
-                                    "premium": 3.2
+                                    "premium": 1.6
                                 },
                                 {
                                     "vehicleIndex": 3,
-                                    "premium": 3.2
+                                    "premium": 1.6
                                 }
                             ],
-                            "rateTotals": 32.0
+                            "rateTotals": 4.800000000000001
                         },
                         {
                             "rateName": "PIP",
@@ -67,172 +67,102 @@
                             "rateData": [
                                 {
                                     "vehicleIndex": 1,
-                                    "premium": 464.40000000000003
+                                    "premium": 1.8
                                 },
                                 {
                                     "vehicleIndex": 2,
-                                    "premium": 466.2
+                                    "premium": 1.8
                                 },
                                 {
                                     "vehicleIndex": 3,
-                                    "premium": 545.4
+                                    "premium": 1.8
                                 }
                             ],
-                            "rateTotals": 1476.0
+                            "rateTotals": 5.4
                         },
                         {
                             "rateName": "Comprehensive",
                             "rateData": [
                                 {
                                     "vehicleIndex": 1,
-                                    "premium": 165.6
+                                    "premium": 1.8
                                 },
                                 {
                                     "vehicleIndex": 2,
-                                    "premium": 149.4
+                                    "premium": 1.8
                                 },
                                 {
                                     "vehicleIndex": 3,
-                                    "premium": 162.0
+                                    "premium": 1.8
                                 }
                             ],
-                            "rateTotals": 477.0
+                            "rateTotals": 5.4
                         },
                         {
                             "rateName": "UMBI",
                             "rateData": [
                                 {
                                     "vehicleIndex": 1,
-                                    "premium": 4.39
+                                    "premium": 1.0
                                 },
                                 {
                                     "vehicleIndex": 2,
-                                    "premium": 4.39
+                                    "premium": 1.0
                                 },
                                 {
                                     "vehicleIndex": 3,
-                                    "premium": 9.4
+                                    "premium": 1.0
                                 }
                             ],
-                            "rateTotals": 18.18
+                            "rateTotals": 3.0
                         },
                         {
                             "rateName": "UIMBI",
                             "rateData": [
                                 {
                                     "vehicleIndex": 1,
-                                    "premium": 2.2
+                                    "premium": 1.0
                                 },
                                 {
                                     "vehicleIndex": 2,
-                                    "premium": 2.2
+                                    "premium": 1.0
                                 },
                                 {
                                     "vehicleIndex": 3,
-                                    "premium": 3.3800000000000003
+                                    "premium": 1.0
                                 }
                             ],
-                            "rateTotals": 7.780000000000001
+                            "rateTotals": 3.0
                         },
                         {
                             "rateName": "Total Premium",
                             "rateData": [
                                 {
                                     "vehicleIndex": 1,
-                                    "premium": 3855.79
+                                    "premium": 8.8
                                 },
                                 {
                                     "vehicleIndex": 2,
-                                    "premium": 1178.9900000000002
+                                    "premium": 8.8
                                 },
                                 {
                                     "vehicleIndex": 3,
-                                    "premium": 1155.38
+                                    "premium": 8.8
                                 }
                             ],
-                            "rateTotals": 6190.16
+                            "rateTotals": 26.400000000000002
                         }
                     ],
                     [
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
                         {
-                            "ratePartId": "92487b75-ed6f-4008-af88-3f5124dfe54e",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "liabilityLossCostRate",
-                            "rateCategory": "Liability",
-                            "vehicleIndex": 1,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Public Auto",
-                            "vehicleItemType": "Sedan Taxicab \u2013 Owner \u2013 driver",
-                            "value": "1996"
-                        },
-                        {
-                            "ratePartId": "f96c64ae-9495-4fbe-9f57-eaa66c6e313a",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "pipLossCostRate",
-                            "rateCategory": "PIP",
-                            "vehicleIndex": 1,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Public Auto",
-                            "vehicleItemType": "Sedan Taxicab \u2013 Owner \u2013 driver",
-                            "value": "0"
-                        },
-                        {
-                            "ratePartId": "be9e6f22-3d2d-42c6-aab4-5f793a1618c5",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "medPayLossCostRate",
-                            "rateCategory": "MedPay",
-                            "vehicleIndex": 1,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Public Auto",
-                            "vehicleItemType": "Sedan Taxicab \u2013 Owner \u2013 driver",
-                            "value": "16"
-                        },
-                        {
-                            "ratePartId": "3af3da55-0a58-4521-9f0b-35778d670c29",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "collisionLossCostRate",
-                            "rateCategory": "Collision",
-                            "vehicleIndex": 1,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Public Auto",
-                            "vehicleItemType": "Sedan Taxicab \u2013 Owner \u2013 driver",
-                            "value": "258"
-                        },
-                        {
-                            "ratePartId": "5f055b6d-1c9d-4de3-8448-0a07548be944",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "comprehensiveLossCostRate",
-                            "rateCategory": "Comprehensive",
-                            "vehicleIndex": 1,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Public Auto",
-                            "vehicleItemType": "Sedan Taxicab \u2013 Owner \u2013 driver",
-                            "value": "92"
-                        },
-                        {
-                            "ratePartId": "16a706ea-a22b-4d20-89bd-881d3e0ddc60",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "umbiLossCostRate",
-                            "rateCategory": "UMBI",
-                            "vehicleIndex": 1,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Public Auto",
-                            "vehicleItemType": "Sedan Taxicab \u2013 Owner \u2013 driver",
-                            "value": "4.39"
-                        },
-                        {
-                            "ratePartId": "567dd839-160c-4864-87eb-dddbd4d16cef",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "uimbiLossCostRate",
-                            "rateCategory": "UIMBI",
-                            "vehicleIndex": 1,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Public Auto",
-                            "vehicleItemType": "Sedan Taxicab \u2013 Owner \u2013 driver",
-                            "value": "2.2"
-                        },
-                        {
-                            "ratePartId": "50b8e6cb-26fa-4e2e-bcdf-6ba6fe3367cb",
+                            "ratePartId": "ac54b326-0e99-4506-a883-96574eb9c2a1",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmLiabilityFactor",
                             "rateCategory": "Liability",
@@ -243,7 +173,7 @@
                             "value": "1.6"
                         },
                         {
-                            "ratePartId": "0acde3de-8d2f-418e-9fd7-8011384dfa80",
+                            "ratePartId": "5f216388-8c5e-49b4-b24d-bd23167a59cb",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmPipFactor",
                             "rateCategory": "PIP",
@@ -254,7 +184,7 @@
                             "value": "0"
                         },
                         {
-                            "ratePartId": "7f1ae78b-5f2e-4bef-956e-1a2817ca973a",
+                            "ratePartId": "f70cac97-3651-4a9d-a153-ba275f8d3617",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmMedpayFactor",
                             "rateCategory": "MedPay",
@@ -265,7 +195,7 @@
                             "value": "1.6"
                         },
                         {
-                            "ratePartId": "378524a9-a982-492d-ba28-da23c4ebb1bc",
+                            "ratePartId": "6e549e4c-c5a8-458c-8eca-67e79aa5fc58",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmCollisionFactor",
                             "rateCategory": "Collision",
@@ -276,7 +206,7 @@
                             "value": "1.8"
                         },
                         {
-                            "ratePartId": "ee19a125-e73e-401d-86fa-6fa0fe0524aa",
+                            "ratePartId": "247df50a-23b5-43f5-9bbb-e925e44e9d12",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmComprehensiveFactor",
                             "rateCategory": "Comprehensive",
@@ -287,7 +217,7 @@
                             "value": "1.8"
                         },
                         {
-                            "ratePartId": "9f6d9673-f348-40ac-a660-1fdf930bea52",
+                            "ratePartId": "1422924d-6beb-4545-b0ab-1ecb557864f7",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmUMFactor",
                             "rateCategory": "UMBI",
@@ -298,7 +228,7 @@
                             "value": "3.0"
                         },
                         {
-                            "ratePartId": "ebfea5c1-a97b-4093-a0e3-ebc82dc7852e",
+                            "ratePartId": "b19b21c0-a023-45cf-9afe-62369493bbfe",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmUIMFactor",
                             "rateCategory": "UIMBI",
@@ -308,85 +238,15 @@
                             "vehicleItemType": "Sedan Taxicab \u2013 Owner \u2013 driver",
                             "value": "3.0"
                         },
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
                         {
-                            "ratePartId": "67f500d2-2e76-45d6-8198-a623e31d7333",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "liabilityLossCostRate",
-                            "rateCategory": "Liability",
-                            "vehicleIndex": 2,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Trailers",
-                            "vehicleItemType": "Utility Trailer",
-                            "value": "346"
-                        },
-                        {
-                            "ratePartId": "fe0f1ac0-0aa1-44c3-b4a8-da6eb006b28d",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "pipLossCostRate",
-                            "rateCategory": "PIP",
-                            "vehicleIndex": 2,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Trailers",
-                            "vehicleItemType": "Utility Trailer",
-                            "value": "0"
-                        },
-                        {
-                            "ratePartId": "40611b8d-d6ff-446d-8804-99742efadb9a",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "medPayLossCostRate",
-                            "rateCategory": "MedPay",
-                            "vehicleIndex": 2,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Trailers",
-                            "vehicleItemType": "Utility Trailer",
-                            "value": "2"
-                        },
-                        {
-                            "ratePartId": "393deed2-c407-473f-ba9a-8d1758c11c16",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "collisionLossCostRate",
-                            "rateCategory": "Collision",
-                            "vehicleIndex": 2,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Trailers",
-                            "vehicleItemType": "Utility Trailer",
-                            "value": "259"
-                        },
-                        {
-                            "ratePartId": "0493092e-c1e0-4fce-ab69-11e87fd0d882",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "comprehensiveLossCostRate",
-                            "rateCategory": "Comprehensive",
-                            "vehicleIndex": 2,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Trailers",
-                            "vehicleItemType": "Utility Trailer",
-                            "value": "83"
-                        },
-                        {
-                            "ratePartId": "0b1f5ede-caba-48a6-b381-cad7040e9a09",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "umbiLossCostRate",
-                            "rateCategory": "UMBI",
-                            "vehicleIndex": 2,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Trailers",
-                            "vehicleItemType": "Utility Trailer",
-                            "value": "4.39"
-                        },
-                        {
-                            "ratePartId": "54dccd39-5761-40a6-9c90-0b01adee587a",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "uimbiLossCostRate",
-                            "rateCategory": "UIMBI",
-                            "vehicleIndex": 2,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Trailers",
-                            "vehicleItemType": "Utility Trailer",
-                            "value": "2.2"
-                        },
-                        {
-                            "ratePartId": "af9eec88-a616-4a3d-a508-d69f648176c9",
+                            "ratePartId": "7c7cdff1-0ea7-48e2-a160-f4b2d79053cd",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmLiabilityFactor",
                             "rateCategory": "Liability",
@@ -397,7 +257,7 @@
                             "value": "1.6"
                         },
                         {
-                            "ratePartId": "9c1bf676-8c6b-4dfe-a26a-3da47c5652ce",
+                            "ratePartId": "56e6ce7e-ceb1-42d4-b035-eb68f9ecec38",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmPipFactor",
                             "rateCategory": "PIP",
@@ -408,7 +268,7 @@
                             "value": "0"
                         },
                         {
-                            "ratePartId": "b823ff52-1418-41c9-ba96-d55f15dad880",
+                            "ratePartId": "79c6a677-1cb8-48c7-86e4-aef33785e3d8",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmMedpayFactor",
                             "rateCategory": "MedPay",
@@ -419,7 +279,7 @@
                             "value": "1.6"
                         },
                         {
-                            "ratePartId": "63ac39c2-6bc3-4fec-ba8c-3c6309b19669",
+                            "ratePartId": "597c7700-3102-4105-a84a-50446522e54b",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmCollisionFactor",
                             "rateCategory": "Collision",
@@ -430,7 +290,7 @@
                             "value": "1.8"
                         },
                         {
-                            "ratePartId": "a554c01c-bb2c-4198-a1c7-f659906d3c62",
+                            "ratePartId": "7a3bada7-b165-4576-967d-459b5b73f3b2",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmComprehensiveFactor",
                             "rateCategory": "Comprehensive",
@@ -441,7 +301,7 @@
                             "value": "1.8"
                         },
                         {
-                            "ratePartId": "6f649cbb-2ba1-451b-a3a2-ab3ea49b9c92",
+                            "ratePartId": "f94c56e3-32e6-4529-9be4-3911ce76b397",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmUMFactor",
                             "rateCategory": "UMBI",
@@ -452,7 +312,7 @@
                             "value": "3.0"
                         },
                         {
-                            "ratePartId": "1de3fb79-b8b3-4aec-9af8-832fe83e9597",
+                            "ratePartId": "6f0c396e-c171-482f-b51b-80619eff509f",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmUIMFactor",
                             "rateCategory": "UIMBI",
@@ -462,85 +322,15 @@
                             "vehicleItemType": "Utility Trailer",
                             "value": "3.0"
                         },
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
                         {
-                            "ratePartId": "2e89e019-654c-4de9-a5ac-1ed6bf428cd8",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "liabilityLossCostRate",
-                            "rateCategory": "Liability",
-                            "vehicleIndex": 3,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Private Passenger Types",
-                            "vehicleItemType": "Sport Utility Vehicle",
-                            "value": "270"
-                        },
-                        {
-                            "ratePartId": "f56a86ef-cb83-4d3d-affa-079d4d7e6d15",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "pipLossCostRate",
-                            "rateCategory": "PIP",
-                            "vehicleIndex": 3,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Private Passenger Types",
-                            "vehicleItemType": "Sport Utility Vehicle",
-                            "value": "0"
-                        },
-                        {
-                            "ratePartId": "837dac0c-3100-4abf-88a7-52912010e2c5",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "medPayLossCostRate",
-                            "rateCategory": "MedPay",
-                            "vehicleIndex": 3,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Private Passenger Types",
-                            "vehicleItemType": "Sport Utility Vehicle",
-                            "value": "2"
-                        },
-                        {
-                            "ratePartId": "2081affb-befc-444f-bf9a-b51988be4136",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "collisionLossCostRate",
-                            "rateCategory": "Collision",
-                            "vehicleIndex": 3,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Private Passenger Types",
-                            "vehicleItemType": "Sport Utility Vehicle",
-                            "value": "303"
-                        },
-                        {
-                            "ratePartId": "a91b2343-6a9f-4715-b447-36ea12ad7994",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "comprehensiveLossCostRate",
-                            "rateCategory": "Comprehensive",
-                            "vehicleIndex": 3,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Private Passenger Types",
-                            "vehicleItemType": "Sport Utility Vehicle",
-                            "value": "90"
-                        },
-                        {
-                            "ratePartId": "f0c8819c-0ba0-40ef-a597-6ba1fe36a874",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "umbiLossCostRate",
-                            "rateCategory": "UMBI",
-                            "vehicleIndex": 3,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Private Passenger Types",
-                            "vehicleItemType": "Sport Utility Vehicle",
-                            "value": "9.4"
-                        },
-                        {
-                            "ratePartId": "f62d95b2-eabd-4977-bd86-9934a6cfa524",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "uimbiLossCostRate",
-                            "rateCategory": "UIMBI",
-                            "vehicleIndex": 3,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Private Passenger Types",
-                            "vehicleItemType": "Sport Utility Vehicle",
-                            "value": "3.38"
-                        },
-                        {
-                            "ratePartId": "00d1c181-18f4-45f0-a9dd-e3a189109145",
+                            "ratePartId": "368d60b9-d2b0-4e7b-8d35-197c17bfdddf",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmLiabilityFactor",
                             "rateCategory": "Liability",
@@ -551,7 +341,7 @@
                             "value": "1.6"
                         },
                         {
-                            "ratePartId": "85856807-8631-4a27-831f-ebd110e3dce3",
+                            "ratePartId": "5669c414-f652-4d89-aeab-8524fe640e7a",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmPipFactor",
                             "rateCategory": "PIP",
@@ -562,7 +352,7 @@
                             "value": "0"
                         },
                         {
-                            "ratePartId": "11909e38-f736-4eff-85e9-3e863d321607",
+                            "ratePartId": "6355451e-c851-4479-b749-17fa94e2e297",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmMedpayFactor",
                             "rateCategory": "MedPay",
@@ -573,7 +363,7 @@
                             "value": "1.6"
                         },
                         {
-                            "ratePartId": "24db5e41-119d-42cf-9dc2-e5da64b0fb05",
+                            "ratePartId": "58ab4034-ac1b-410b-bc23-e4ff61ac922e",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmCollisionFactor",
                             "rateCategory": "Collision",
@@ -584,7 +374,7 @@
                             "value": "1.8"
                         },
                         {
-                            "ratePartId": "7dd6e665-b935-49fd-8b00-0035df6d81fc",
+                            "ratePartId": "a0a3e26b-0dfa-4b2c-a4da-c9541abd7a45",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmComprehensiveFactor",
                             "rateCategory": "Comprehensive",
@@ -595,7 +385,7 @@
                             "value": "1.8"
                         },
                         {
-                            "ratePartId": "f406342c-f5a8-4533-9950-1de8feeb48f8",
+                            "ratePartId": "8280d471-4a0a-4c8b-a581-c84f743d509a",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmUMFactor",
                             "rateCategory": "UMBI",
@@ -606,7 +396,7 @@
                             "value": "3.0"
                         },
                         {
-                            "ratePartId": "aed9ebe5-bdb3-44fd-b13c-ba765f3a476c",
+                            "ratePartId": "82f65373-a1ff-4fed-a3cc-24d7490a153d",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmUIMFactor",
                             "rateCategory": "UIMBI",
@@ -620,9 +410,9 @@
                 ]
             },
             {
-                "quoteVersionId": "b885fe79-3fdf-4579-9cbc-72bb920a65e4",
+                "quoteVersionId": "80b681c2-ae9c-455d-89b4-f4d8cd43a00b",
                 "gbbName": "Better",
-                "rateVersionKey": "public/quoteversionrate/b885fe79-3fdf-4579-9cbc-72bb920a65e4.json",
+                "rateVersionKey": "public/quoteversionrate/80b681c2-ae9c-455d-89b4-f4d8cd43a00b.json",
                 "gbbData": [
                     [
                         {
@@ -630,36 +420,36 @@
                             "rateData": [
                                 {
                                     "vehicleIndex": 1,
-                                    "premium": 3193.6000000000004
+                                    "premium": 1.6
                                 },
                                 {
                                     "vehicleIndex": 2,
-                                    "premium": 553.6
+                                    "premium": 1.6
                                 },
                                 {
                                     "vehicleIndex": 3,
-                                    "premium": 432.0
+                                    "premium": 1.6
                                 }
                             ],
-                            "rateTotals": 4179.200000000001
+                            "rateTotals": 4.800000000000001
                         },
                         {
                             "rateName": "MedPay",
                             "rateData": [
                                 {
                                     "vehicleIndex": 1,
-                                    "premium": 25.6
+                                    "premium": 1.6
                                 },
                                 {
                                     "vehicleIndex": 2,
-                                    "premium": 3.2
+                                    "premium": 1.6
                                 },
                                 {
                                     "vehicleIndex": 3,
-                                    "premium": 3.2
+                                    "premium": 1.6
                                 }
                             ],
-                            "rateTotals": 32.0
+                            "rateTotals": 4.800000000000001
                         },
                         {
                             "rateName": "PIP",
@@ -684,172 +474,102 @@
                             "rateData": [
                                 {
                                     "vehicleIndex": 1,
-                                    "premium": 464.40000000000003
+                                    "premium": 1.8
                                 },
                                 {
                                     "vehicleIndex": 2,
-                                    "premium": 466.2
+                                    "premium": 1.8
                                 },
                                 {
                                     "vehicleIndex": 3,
-                                    "premium": 545.4
+                                    "premium": 1.8
                                 }
                             ],
-                            "rateTotals": 1476.0
+                            "rateTotals": 5.4
                         },
                         {
                             "rateName": "Comprehensive",
                             "rateData": [
                                 {
                                     "vehicleIndex": 1,
-                                    "premium": 165.6
+                                    "premium": 1.8
                                 },
                                 {
                                     "vehicleIndex": 2,
-                                    "premium": 149.4
+                                    "premium": 1.8
                                 },
                                 {
                                     "vehicleIndex": 3,
-                                    "premium": 162.0
+                                    "premium": 1.8
                                 }
                             ],
-                            "rateTotals": 477.0
+                            "rateTotals": 5.4
                         },
                         {
                             "rateName": "UMBI",
                             "rateData": [
                                 {
                                     "vehicleIndex": 1,
-                                    "premium": 4.39
+                                    "premium": 1.0
                                 },
                                 {
                                     "vehicleIndex": 2,
-                                    "premium": 4.39
+                                    "premium": 1.0
                                 },
                                 {
                                     "vehicleIndex": 3,
-                                    "premium": 9.4
+                                    "premium": 1.0
                                 }
                             ],
-                            "rateTotals": 18.18
+                            "rateTotals": 3.0
                         },
                         {
                             "rateName": "UIMBI",
                             "rateData": [
                                 {
                                     "vehicleIndex": 1,
-                                    "premium": 2.2
+                                    "premium": 1.0
                                 },
                                 {
                                     "vehicleIndex": 2,
-                                    "premium": 2.2
+                                    "premium": 1.0
                                 },
                                 {
                                     "vehicleIndex": 3,
-                                    "premium": 3.3800000000000003
+                                    "premium": 1.0
                                 }
                             ],
-                            "rateTotals": 7.780000000000001
+                            "rateTotals": 3.0
                         },
                         {
                             "rateName": "Total Premium",
                             "rateData": [
                                 {
                                     "vehicleIndex": 1,
-                                    "premium": 3855.79
+                                    "premium": 8.8
                                 },
                                 {
                                     "vehicleIndex": 2,
-                                    "premium": 1178.9900000000002
+                                    "premium": 8.8
                                 },
                                 {
                                     "vehicleIndex": 3,
-                                    "premium": 1155.38
+                                    "premium": 8.8
                                 }
                             ],
-                            "rateTotals": 6190.16
+                            "rateTotals": 26.400000000000002
                         }
                     ],
                     [
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
                         {
-                            "ratePartId": "d5c7dcc9-2847-4ce2-a8b6-5b9281d48b53",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "liabilityLossCostRate",
-                            "rateCategory": "Liability",
-                            "vehicleIndex": 1,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Public Auto",
-                            "vehicleItemType": "Sedan Taxicab \u2013 Owner \u2013 driver",
-                            "value": "1996"
-                        },
-                        {
-                            "ratePartId": "49aa6a73-b954-434c-99d9-296d49d07b14",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "pipLossCostRate",
-                            "rateCategory": "PIP",
-                            "vehicleIndex": 1,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Public Auto",
-                            "vehicleItemType": "Sedan Taxicab \u2013 Owner \u2013 driver",
-                            "value": "0"
-                        },
-                        {
-                            "ratePartId": "17dd7e3e-b3ac-4edb-b7c6-da8b9206de83",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "medPayLossCostRate",
-                            "rateCategory": "MedPay",
-                            "vehicleIndex": 1,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Public Auto",
-                            "vehicleItemType": "Sedan Taxicab \u2013 Owner \u2013 driver",
-                            "value": "16"
-                        },
-                        {
-                            "ratePartId": "e876c7b9-9421-47d9-b0df-718f04c0e20e",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "collisionLossCostRate",
-                            "rateCategory": "Collision",
-                            "vehicleIndex": 1,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Public Auto",
-                            "vehicleItemType": "Sedan Taxicab \u2013 Owner \u2013 driver",
-                            "value": "258"
-                        },
-                        {
-                            "ratePartId": "678deefc-89eb-41bb-b5c3-28fde97c1c30",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "comprehensiveLossCostRate",
-                            "rateCategory": "Comprehensive",
-                            "vehicleIndex": 1,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Public Auto",
-                            "vehicleItemType": "Sedan Taxicab \u2013 Owner \u2013 driver",
-                            "value": "92"
-                        },
-                        {
-                            "ratePartId": "9a66e027-77ef-4c9c-b30c-8baeab4d858c",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "umbiLossCostRate",
-                            "rateCategory": "UMBI",
-                            "vehicleIndex": 1,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Public Auto",
-                            "vehicleItemType": "Sedan Taxicab \u2013 Owner \u2013 driver",
-                            "value": "4.39"
-                        },
-                        {
-                            "ratePartId": "4f910e24-ed69-4a95-8484-84dd00b1cb12",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "uimbiLossCostRate",
-                            "rateCategory": "UIMBI",
-                            "vehicleIndex": 1,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Public Auto",
-                            "vehicleItemType": "Sedan Taxicab \u2013 Owner \u2013 driver",
-                            "value": "2.2"
-                        },
-                        {
-                            "ratePartId": "faed80de-3da4-4e44-a564-58f53651d328",
+                            "ratePartId": "01060069-095e-4ba3-acbd-abed5944ed4c",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmLiabilityFactor",
                             "rateCategory": "Liability",
@@ -860,7 +580,7 @@
                             "value": "1.6"
                         },
                         {
-                            "ratePartId": "4a1781f9-3969-48be-8afc-a9dc3b84acab",
+                            "ratePartId": "193df796-729b-4fc9-b240-cae59f7ffc36",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmPipFactor",
                             "rateCategory": "PIP",
@@ -871,7 +591,7 @@
                             "value": "0"
                         },
                         {
-                            "ratePartId": "284139ec-181a-4d18-90e4-8ab5cf2faa71",
+                            "ratePartId": "61cf8c86-c914-45fa-9980-0e3e7d44ce4d",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmMedpayFactor",
                             "rateCategory": "MedPay",
@@ -882,7 +602,7 @@
                             "value": "1.6"
                         },
                         {
-                            "ratePartId": "416b1144-6110-47f1-a502-0aad74e75e52",
+                            "ratePartId": "b2ae20c8-0cb6-4bbe-b103-c625749ba4e7",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmCollisionFactor",
                             "rateCategory": "Collision",
@@ -893,7 +613,7 @@
                             "value": "1.8"
                         },
                         {
-                            "ratePartId": "cf77f3cb-856f-43de-a7a6-9b1077156f94",
+                            "ratePartId": "3551f7bd-5a73-4aa6-a786-8280b990d760",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmComprehensiveFactor",
                             "rateCategory": "Comprehensive",
@@ -904,7 +624,7 @@
                             "value": "1.8"
                         },
                         {
-                            "ratePartId": "863d2844-59f3-4de1-821d-01d0e34d81a6",
+                            "ratePartId": "9878a1af-ae80-43cf-8a0b-36a5d7990afc",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmUMFactor",
                             "rateCategory": "UMBI",
@@ -915,7 +635,7 @@
                             "value": "3.0"
                         },
                         {
-                            "ratePartId": "2d83c34a-8e3a-4003-832a-9ad81c190def",
+                            "ratePartId": "cf6a2550-bf70-4f35-b3b6-c1c4b38e810b",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmUIMFactor",
                             "rateCategory": "UIMBI",
@@ -925,85 +645,15 @@
                             "vehicleItemType": "Sedan Taxicab \u2013 Owner \u2013 driver",
                             "value": "3.0"
                         },
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
                         {
-                            "ratePartId": "62727124-4b9b-4a92-8dff-15682cd71042",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "liabilityLossCostRate",
-                            "rateCategory": "Liability",
-                            "vehicleIndex": 2,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Trailers",
-                            "vehicleItemType": "Utility Trailer",
-                            "value": "346"
-                        },
-                        {
-                            "ratePartId": "dda03721-04d7-48f8-9d61-dab8a7dfabd5",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "pipLossCostRate",
-                            "rateCategory": "PIP",
-                            "vehicleIndex": 2,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Trailers",
-                            "vehicleItemType": "Utility Trailer",
-                            "value": "0"
-                        },
-                        {
-                            "ratePartId": "9b568c97-dda7-44a1-9735-a8692047bc55",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "medPayLossCostRate",
-                            "rateCategory": "MedPay",
-                            "vehicleIndex": 2,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Trailers",
-                            "vehicleItemType": "Utility Trailer",
-                            "value": "2"
-                        },
-                        {
-                            "ratePartId": "50b00924-3cad-4f98-af61-7a8e6baaf59b",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "collisionLossCostRate",
-                            "rateCategory": "Collision",
-                            "vehicleIndex": 2,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Trailers",
-                            "vehicleItemType": "Utility Trailer",
-                            "value": "259"
-                        },
-                        {
-                            "ratePartId": "2b13a0f6-7335-4f06-b9d3-9f31386bf062",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "comprehensiveLossCostRate",
-                            "rateCategory": "Comprehensive",
-                            "vehicleIndex": 2,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Trailers",
-                            "vehicleItemType": "Utility Trailer",
-                            "value": "83"
-                        },
-                        {
-                            "ratePartId": "40cfb65e-0f13-451f-b43e-a41c520d070f",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "umbiLossCostRate",
-                            "rateCategory": "UMBI",
-                            "vehicleIndex": 2,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Trailers",
-                            "vehicleItemType": "Utility Trailer",
-                            "value": "4.39"
-                        },
-                        {
-                            "ratePartId": "108571bc-28fe-46d9-a784-32fe59d49511",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "uimbiLossCostRate",
-                            "rateCategory": "UIMBI",
-                            "vehicleIndex": 2,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Trailers",
-                            "vehicleItemType": "Utility Trailer",
-                            "value": "2.2"
-                        },
-                        {
-                            "ratePartId": "fd4eea16-bbf6-4bc0-9086-3b3e90d29204",
+                            "ratePartId": "095b82a8-ccda-4b27-b39c-9c9b5547ffb4",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmLiabilityFactor",
                             "rateCategory": "Liability",
@@ -1014,7 +664,7 @@
                             "value": "1.6"
                         },
                         {
-                            "ratePartId": "9d71e2cf-2602-44c9-83d5-69b757fee601",
+                            "ratePartId": "a4831d0b-782f-44a0-847f-d23c6e526538",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmPipFactor",
                             "rateCategory": "PIP",
@@ -1025,7 +675,7 @@
                             "value": "0"
                         },
                         {
-                            "ratePartId": "bc5abf24-2705-406a-881d-7d403a5982ab",
+                            "ratePartId": "bde730cf-1dad-4f87-9ce5-f59545cc9e2f",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmMedpayFactor",
                             "rateCategory": "MedPay",
@@ -1036,7 +686,7 @@
                             "value": "1.6"
                         },
                         {
-                            "ratePartId": "3d716ebd-4eaf-47bb-b310-c000d03205e1",
+                            "ratePartId": "5901aaf8-390a-4a49-8ebc-3e291b0e197a",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmCollisionFactor",
                             "rateCategory": "Collision",
@@ -1047,7 +697,7 @@
                             "value": "1.8"
                         },
                         {
-                            "ratePartId": "dd03e57e-3cd1-4062-a3ff-22bd17521e47",
+                            "ratePartId": "8373c398-7bd8-4db9-9e95-1e2dfe878097",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmComprehensiveFactor",
                             "rateCategory": "Comprehensive",
@@ -1058,7 +708,7 @@
                             "value": "1.8"
                         },
                         {
-                            "ratePartId": "dd593e34-7ad3-4387-b83b-be3fd41da5d7",
+                            "ratePartId": "014e84bf-2c18-40a7-b89f-13d7e6ca9b52",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmUMFactor",
                             "rateCategory": "UMBI",
@@ -1069,7 +719,7 @@
                             "value": "3.0"
                         },
                         {
-                            "ratePartId": "38f29d4b-0d0e-4ec8-898c-d4e459eeb007",
+                            "ratePartId": "02ee26c9-1e3e-49f7-87d8-2ec269e3221b",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmUIMFactor",
                             "rateCategory": "UIMBI",
@@ -1079,85 +729,15 @@
                             "vehicleItemType": "Utility Trailer",
                             "value": "3.0"
                         },
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
                         {
-                            "ratePartId": "3166be11-b2d4-403b-b476-d948aeec967b",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "liabilityLossCostRate",
-                            "rateCategory": "Liability",
-                            "vehicleIndex": 3,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Private Passenger Types",
-                            "vehicleItemType": "Sport Utility Vehicle",
-                            "value": "270"
-                        },
-                        {
-                            "ratePartId": "73aaf719-1eab-4b8b-937b-56c13754a333",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "pipLossCostRate",
-                            "rateCategory": "PIP",
-                            "vehicleIndex": 3,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Private Passenger Types",
-                            "vehicleItemType": "Sport Utility Vehicle",
-                            "value": "0"
-                        },
-                        {
-                            "ratePartId": "5bfd9ac2-1734-4738-a474-d87e14271107",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "medPayLossCostRate",
-                            "rateCategory": "MedPay",
-                            "vehicleIndex": 3,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Private Passenger Types",
-                            "vehicleItemType": "Sport Utility Vehicle",
-                            "value": "2"
-                        },
-                        {
-                            "ratePartId": "a04fe70f-5001-4964-ab68-c7af85949154",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "collisionLossCostRate",
-                            "rateCategory": "Collision",
-                            "vehicleIndex": 3,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Private Passenger Types",
-                            "vehicleItemType": "Sport Utility Vehicle",
-                            "value": "303"
-                        },
-                        {
-                            "ratePartId": "19f61a9f-e7a6-4ece-a343-433a22dad3cd",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "comprehensiveLossCostRate",
-                            "rateCategory": "Comprehensive",
-                            "vehicleIndex": 3,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Private Passenger Types",
-                            "vehicleItemType": "Sport Utility Vehicle",
-                            "value": "90"
-                        },
-                        {
-                            "ratePartId": "ecf66f5f-e67a-4d16-b7d6-08f026533ddc",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "umbiLossCostRate",
-                            "rateCategory": "UMBI",
-                            "vehicleIndex": 3,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Private Passenger Types",
-                            "vehicleItemType": "Sport Utility Vehicle",
-                            "value": "9.4"
-                        },
-                        {
-                            "ratePartId": "abe7021a-9108-4cf7-badc-6e3150fb3691",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "uimbiLossCostRate",
-                            "rateCategory": "UIMBI",
-                            "vehicleIndex": 3,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Private Passenger Types",
-                            "vehicleItemType": "Sport Utility Vehicle",
-                            "value": "3.38"
-                        },
-                        {
-                            "ratePartId": "92e4cd5e-2f55-444a-ab30-d875d83c1797",
+                            "ratePartId": "cc5a82c6-0040-4e5f-bf7c-3fdb213983f8",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmLiabilityFactor",
                             "rateCategory": "Liability",
@@ -1168,7 +748,7 @@
                             "value": "1.6"
                         },
                         {
-                            "ratePartId": "f790271b-cdd6-45c0-89c8-340a6d16a4fd",
+                            "ratePartId": "3d70bf4b-bc1a-4453-805a-de75566316df",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmPipFactor",
                             "rateCategory": "PIP",
@@ -1179,7 +759,7 @@
                             "value": "0"
                         },
                         {
-                            "ratePartId": "9b1fc4c7-be0c-4805-bec2-eedb4fe34e60",
+                            "ratePartId": "b3f8664d-05d7-4a7d-a283-b46a59f2d3ec",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmMedpayFactor",
                             "rateCategory": "MedPay",
@@ -1190,7 +770,7 @@
                             "value": "1.6"
                         },
                         {
-                            "ratePartId": "dd7c2167-e76c-490d-ba0d-3e3bc9a66702",
+                            "ratePartId": "b4eb2d28-66cc-46c5-b9bc-ce0e2655d4ea",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmCollisionFactor",
                             "rateCategory": "Collision",
@@ -1201,7 +781,7 @@
                             "value": "1.8"
                         },
                         {
-                            "ratePartId": "2d688ecb-7a66-423b-9db5-646d404e90e2",
+                            "ratePartId": "0a2c3d33-1309-4d6d-99aa-419e6d4b507f",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmComprehensiveFactor",
                             "rateCategory": "Comprehensive",
@@ -1212,7 +792,7 @@
                             "value": "1.8"
                         },
                         {
-                            "ratePartId": "839d25c6-cc3f-4388-83aa-7c9d583a8097",
+                            "ratePartId": "d8f326fe-97c0-400a-a976-6b56520d5e67",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmUMFactor",
                             "rateCategory": "UMBI",
@@ -1223,7 +803,7 @@
                             "value": "3.0"
                         },
                         {
-                            "ratePartId": "cb26ac23-4686-4360-b323-a7d918b04fa7",
+                            "ratePartId": "fad9302b-da0d-4dc4-822e-6d971720ed1a",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmUIMFactor",
                             "rateCategory": "UIMBI",
@@ -1237,9 +817,9 @@
                 ]
             },
             {
-                "quoteVersionId": "6f026c90-c566-46c5-aa7c-055cb661bdd5",
+                "quoteVersionId": "fb32ae32-1734-4aec-a66d-b66dab4d8887",
                 "gbbName": "Best",
-                "rateVersionKey": "public/quoteversionrate/6f026c90-c566-46c5-aa7c-055cb661bdd5.json",
+                "rateVersionKey": "public/quoteversionrate/fb32ae32-1734-4aec-a66d-b66dab4d8887.json",
                 "gbbData": [
                     [
                         {
@@ -1247,36 +827,36 @@
                             "rateData": [
                                 {
                                     "vehicleIndex": 1,
-                                    "premium": 3193.6000000000004
+                                    "premium": 1.6
                                 },
                                 {
                                     "vehicleIndex": 2,
-                                    "premium": 553.6
+                                    "premium": 1.6
                                 },
                                 {
                                     "vehicleIndex": 3,
-                                    "premium": 432.0
+                                    "premium": 1.6
                                 }
                             ],
-                            "rateTotals": 4179.200000000001
+                            "rateTotals": 4.800000000000001
                         },
                         {
                             "rateName": "MedPay",
                             "rateData": [
                                 {
                                     "vehicleIndex": 1,
-                                    "premium": 25.6
+                                    "premium": 1.6
                                 },
                                 {
                                     "vehicleIndex": 2,
-                                    "premium": 3.2
+                                    "premium": 1.6
                                 },
                                 {
                                     "vehicleIndex": 3,
-                                    "premium": 3.2
+                                    "premium": 1.6
                                 }
                             ],
-                            "rateTotals": 32.0
+                            "rateTotals": 4.800000000000001
                         },
                         {
                             "rateName": "PIP",
@@ -1301,172 +881,102 @@
                             "rateData": [
                                 {
                                     "vehicleIndex": 1,
-                                    "premium": 464.40000000000003
+                                    "premium": 1.8
                                 },
                                 {
                                     "vehicleIndex": 2,
-                                    "premium": 466.2
+                                    "premium": 1.8
                                 },
                                 {
                                     "vehicleIndex": 3,
-                                    "premium": 545.4
+                                    "premium": 1.8
                                 }
                             ],
-                            "rateTotals": 1476.0
+                            "rateTotals": 5.4
                         },
                         {
                             "rateName": "Comprehensive",
                             "rateData": [
                                 {
                                     "vehicleIndex": 1,
-                                    "premium": 165.6
+                                    "premium": 1.8
                                 },
                                 {
                                     "vehicleIndex": 2,
-                                    "premium": 149.4
+                                    "premium": 1.8
                                 },
                                 {
                                     "vehicleIndex": 3,
-                                    "premium": 162.0
+                                    "premium": 1.8
                                 }
                             ],
-                            "rateTotals": 477.0
+                            "rateTotals": 5.4
                         },
                         {
                             "rateName": "UMBI",
                             "rateData": [
                                 {
                                     "vehicleIndex": 1,
-                                    "premium": 4.39
+                                    "premium": 1.0
                                 },
                                 {
                                     "vehicleIndex": 2,
-                                    "premium": 4.39
+                                    "premium": 1.0
                                 },
                                 {
                                     "vehicleIndex": 3,
-                                    "premium": 9.4
+                                    "premium": 1.0
                                 }
                             ],
-                            "rateTotals": 18.18
+                            "rateTotals": 3.0
                         },
                         {
                             "rateName": "UIMBI",
                             "rateData": [
                                 {
                                     "vehicleIndex": 1,
-                                    "premium": 2.2
+                                    "premium": 1.0
                                 },
                                 {
                                     "vehicleIndex": 2,
-                                    "premium": 2.2
+                                    "premium": 1.0
                                 },
                                 {
                                     "vehicleIndex": 3,
-                                    "premium": 3.3800000000000003
+                                    "premium": 1.0
                                 }
                             ],
-                            "rateTotals": 7.780000000000001
+                            "rateTotals": 3.0
                         },
                         {
                             "rateName": "Total Premium",
                             "rateData": [
                                 {
                                     "vehicleIndex": 1,
-                                    "premium": 3855.79
+                                    "premium": 8.8
                                 },
                                 {
                                     "vehicleIndex": 2,
-                                    "premium": 1178.9900000000002
+                                    "premium": 8.8
                                 },
                                 {
                                     "vehicleIndex": 3,
-                                    "premium": 1155.38
+                                    "premium": 8.8
                                 }
                             ],
-                            "rateTotals": 6190.16
+                            "rateTotals": 26.400000000000002
                         }
                     ],
                     [
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
                         {
-                            "ratePartId": "bc86ce45-d118-4975-8891-7b9e5ae5bd47",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "liabilityLossCostRate",
-                            "rateCategory": "Liability",
-                            "vehicleIndex": 1,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Public Auto",
-                            "vehicleItemType": "Sedan Taxicab \u2013 Owner \u2013 driver",
-                            "value": "1996"
-                        },
-                        {
-                            "ratePartId": "73cfb6bc-b44c-47b2-9434-a1c3000ef8d0",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "pipLossCostRate",
-                            "rateCategory": "PIP",
-                            "vehicleIndex": 1,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Public Auto",
-                            "vehicleItemType": "Sedan Taxicab \u2013 Owner \u2013 driver",
-                            "value": "0"
-                        },
-                        {
-                            "ratePartId": "f013b49a-cad3-456c-9c12-b60b452b2bf2",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "medPayLossCostRate",
-                            "rateCategory": "MedPay",
-                            "vehicleIndex": 1,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Public Auto",
-                            "vehicleItemType": "Sedan Taxicab \u2013 Owner \u2013 driver",
-                            "value": "16"
-                        },
-                        {
-                            "ratePartId": "5bca7e19-6296-49e5-b314-13e3d8c4f8a9",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "collisionLossCostRate",
-                            "rateCategory": "Collision",
-                            "vehicleIndex": 1,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Public Auto",
-                            "vehicleItemType": "Sedan Taxicab \u2013 Owner \u2013 driver",
-                            "value": "258"
-                        },
-                        {
-                            "ratePartId": "54ec53d3-516b-4b54-ad4e-5737e8fd1736",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "comprehensiveLossCostRate",
-                            "rateCategory": "Comprehensive",
-                            "vehicleIndex": 1,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Public Auto",
-                            "vehicleItemType": "Sedan Taxicab \u2013 Owner \u2013 driver",
-                            "value": "92"
-                        },
-                        {
-                            "ratePartId": "6318eae1-a5ec-470b-91d0-d80303dfdbed",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "umbiLossCostRate",
-                            "rateCategory": "UMBI",
-                            "vehicleIndex": 1,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Public Auto",
-                            "vehicleItemType": "Sedan Taxicab \u2013 Owner \u2013 driver",
-                            "value": "4.39"
-                        },
-                        {
-                            "ratePartId": "57541ea0-2835-47f1-b1c0-3dc66e709811",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "uimbiLossCostRate",
-                            "rateCategory": "UIMBI",
-                            "vehicleIndex": 1,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Public Auto",
-                            "vehicleItemType": "Sedan Taxicab \u2013 Owner \u2013 driver",
-                            "value": "2.2"
-                        },
-                        {
-                            "ratePartId": "a799d685-ab1e-4b7c-a342-514e58666df1",
+                            "ratePartId": "c20eb3bf-a65e-4d52-8f09-d5e832fad159",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmLiabilityFactor",
                             "rateCategory": "Liability",
@@ -1477,7 +987,7 @@
                             "value": "1.6"
                         },
                         {
-                            "ratePartId": "b6611038-badd-4d0d-ae1e-c7c8807febe3",
+                            "ratePartId": "f65f66e0-b43e-4cb4-9c24-bf595a8f3bf6",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmPipFactor",
                             "rateCategory": "PIP",
@@ -1488,7 +998,7 @@
                             "value": "0"
                         },
                         {
-                            "ratePartId": "b429536c-0851-4f28-b4f8-4178d2fd0554",
+                            "ratePartId": "75e6277d-258d-4c52-9fb4-6a7ce88f02ae",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmMedpayFactor",
                             "rateCategory": "MedPay",
@@ -1499,7 +1009,7 @@
                             "value": "1.6"
                         },
                         {
-                            "ratePartId": "e28c8de0-89dd-4663-a936-33a3e35171dd",
+                            "ratePartId": "5daf2f2a-d022-4408-9d47-32ce52f124e5",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmCollisionFactor",
                             "rateCategory": "Collision",
@@ -1510,7 +1020,7 @@
                             "value": "1.8"
                         },
                         {
-                            "ratePartId": "67b6b96f-48a6-4e06-a3d4-872f8b8f037b",
+                            "ratePartId": "05ba3fb1-936a-4213-9f92-d9a4ad051c5a",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmComprehensiveFactor",
                             "rateCategory": "Comprehensive",
@@ -1521,7 +1031,7 @@
                             "value": "1.8"
                         },
                         {
-                            "ratePartId": "163ef460-07c5-4f80-9d9c-77ed95ff8c3c",
+                            "ratePartId": "a5e635e4-47ae-480d-9310-116f404d55e1",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmUMFactor",
                             "rateCategory": "UMBI",
@@ -1532,7 +1042,7 @@
                             "value": "3.0"
                         },
                         {
-                            "ratePartId": "cfd40e1c-7347-4328-89ec-aae98e872302",
+                            "ratePartId": "e15e6950-b43d-4756-80c9-a4cb27f6959b",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmUIMFactor",
                             "rateCategory": "UIMBI",
@@ -1542,85 +1052,15 @@
                             "vehicleItemType": "Sedan Taxicab \u2013 Owner \u2013 driver",
                             "value": "3.0"
                         },
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
                         {
-                            "ratePartId": "0b49f15d-fc39-4b29-a6d3-3cfff3d63a70",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "liabilityLossCostRate",
-                            "rateCategory": "Liability",
-                            "vehicleIndex": 2,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Trailers",
-                            "vehicleItemType": "Utility Trailer",
-                            "value": "346"
-                        },
-                        {
-                            "ratePartId": "ed750241-682b-4081-8f44-fb0390e707f8",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "pipLossCostRate",
-                            "rateCategory": "PIP",
-                            "vehicleIndex": 2,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Trailers",
-                            "vehicleItemType": "Utility Trailer",
-                            "value": "0"
-                        },
-                        {
-                            "ratePartId": "0492f461-4d79-4ba7-b9c9-755cad9f243f",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "medPayLossCostRate",
-                            "rateCategory": "MedPay",
-                            "vehicleIndex": 2,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Trailers",
-                            "vehicleItemType": "Utility Trailer",
-                            "value": "2"
-                        },
-                        {
-                            "ratePartId": "d3cb1de5-11f3-41fc-bb79-1cc2a3ac4349",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "collisionLossCostRate",
-                            "rateCategory": "Collision",
-                            "vehicleIndex": 2,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Trailers",
-                            "vehicleItemType": "Utility Trailer",
-                            "value": "259"
-                        },
-                        {
-                            "ratePartId": "7575cfbf-e959-4c43-9413-d83bc9f1d081",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "comprehensiveLossCostRate",
-                            "rateCategory": "Comprehensive",
-                            "vehicleIndex": 2,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Trailers",
-                            "vehicleItemType": "Utility Trailer",
-                            "value": "83"
-                        },
-                        {
-                            "ratePartId": "c7288665-8009-4c24-b543-370bee2eb265",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "umbiLossCostRate",
-                            "rateCategory": "UMBI",
-                            "vehicleIndex": 2,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Trailers",
-                            "vehicleItemType": "Utility Trailer",
-                            "value": "4.39"
-                        },
-                        {
-                            "ratePartId": "4c090605-e4ab-4db0-905d-e11095312941",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "uimbiLossCostRate",
-                            "rateCategory": "UIMBI",
-                            "vehicleIndex": 2,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Trailers",
-                            "vehicleItemType": "Utility Trailer",
-                            "value": "2.2"
-                        },
-                        {
-                            "ratePartId": "7e086156-6594-4528-9c0a-3e04e74eb039",
+                            "ratePartId": "863924e6-532e-458f-a2d7-57267822295d",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmLiabilityFactor",
                             "rateCategory": "Liability",
@@ -1631,7 +1071,7 @@
                             "value": "1.6"
                         },
                         {
-                            "ratePartId": "600c02e2-2d8e-42b3-a177-03cbf824ebc3",
+                            "ratePartId": "b483a552-9795-42e4-ae4c-d5e3ab5eda9f",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmPipFactor",
                             "rateCategory": "PIP",
@@ -1642,7 +1082,7 @@
                             "value": "0"
                         },
                         {
-                            "ratePartId": "a1677d88-e395-4e32-a56b-71d854fc01a4",
+                            "ratePartId": "ddb774ac-f04f-471f-899e-95ee98e88e0c",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmMedpayFactor",
                             "rateCategory": "MedPay",
@@ -1653,7 +1093,7 @@
                             "value": "1.6"
                         },
                         {
-                            "ratePartId": "6dd1309c-623d-441d-9c2f-157765346edb",
+                            "ratePartId": "908bfbe5-e946-454d-a2fb-3f9182585472",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmCollisionFactor",
                             "rateCategory": "Collision",
@@ -1664,7 +1104,7 @@
                             "value": "1.8"
                         },
                         {
-                            "ratePartId": "27a4ccb6-9a70-4f5a-ab48-61f77a39557e",
+                            "ratePartId": "fe3fd1f9-6ef4-4f5c-a505-a7ee18b0ed51",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmComprehensiveFactor",
                             "rateCategory": "Comprehensive",
@@ -1675,7 +1115,7 @@
                             "value": "1.8"
                         },
                         {
-                            "ratePartId": "ae643dab-18ec-40be-ab72-e971c2afec22",
+                            "ratePartId": "9fde21d8-7e93-45e1-8932-bc82faef9f6b",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmUMFactor",
                             "rateCategory": "UMBI",
@@ -1686,7 +1126,7 @@
                             "value": "3.0"
                         },
                         {
-                            "ratePartId": "db8f3e84-19ec-42b9-ad35-fbf88d8855e3",
+                            "ratePartId": "83719483-29ce-4024-8680-d8721f1e5d69",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmUIMFactor",
                             "rateCategory": "UIMBI",
@@ -1696,85 +1136,15 @@
                             "vehicleItemType": "Utility Trailer",
                             "value": "3.0"
                         },
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
+                        {},
                         {
-                            "ratePartId": "6562d982-3b1b-4b88-9c1c-e151284f0f76",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "liabilityLossCostRate",
-                            "rateCategory": "Liability",
-                            "vehicleIndex": 3,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Private Passenger Types",
-                            "vehicleItemType": "Sport Utility Vehicle",
-                            "value": "270"
-                        },
-                        {
-                            "ratePartId": "46bad6a1-4990-4eaa-b260-c22fd6be39ae",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "pipLossCostRate",
-                            "rateCategory": "PIP",
-                            "vehicleIndex": 3,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Private Passenger Types",
-                            "vehicleItemType": "Sport Utility Vehicle",
-                            "value": "0"
-                        },
-                        {
-                            "ratePartId": "57377983-43c1-469b-954b-719e0172295c",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "medPayLossCostRate",
-                            "rateCategory": "MedPay",
-                            "vehicleIndex": 3,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Private Passenger Types",
-                            "vehicleItemType": "Sport Utility Vehicle",
-                            "value": "2"
-                        },
-                        {
-                            "ratePartId": "79f839ff-28d4-4d72-b7c4-716467b998ee",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "collisionLossCostRate",
-                            "rateCategory": "Collision",
-                            "vehicleIndex": 3,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Private Passenger Types",
-                            "vehicleItemType": "Sport Utility Vehicle",
-                            "value": "303"
-                        },
-                        {
-                            "ratePartId": "ebb6e0bc-b9e6-4e5d-b13f-199e17337593",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "comprehensiveLossCostRate",
-                            "rateCategory": "Comprehensive",
-                            "vehicleIndex": 3,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Private Passenger Types",
-                            "vehicleItemType": "Sport Utility Vehicle",
-                            "value": "90"
-                        },
-                        {
-                            "ratePartId": "be8ebcb6-1005-49e5-9f41-c3927a709c04",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "umbiLossCostRate",
-                            "rateCategory": "UMBI",
-                            "vehicleIndex": 3,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Private Passenger Types",
-                            "vehicleItemType": "Sport Utility Vehicle",
-                            "value": "9.4"
-                        },
-                        {
-                            "ratePartId": "0f0a1d92-f7a9-444f-a1cb-85e1995c7801",
-                            "ratePartCategory": "Base Loss Cost",
-                            "rateName": "uimbiLossCostRate",
-                            "rateCategory": "UIMBI",
-                            "vehicleIndex": 3,
-                            "totalVehicles": 3,
-                            "ratingClassification": "Private Passenger Types",
-                            "vehicleItemType": "Sport Utility Vehicle",
-                            "value": "3.38"
-                        },
-                        {
-                            "ratePartId": "da90e421-ebcf-4b1e-a3bf-6ecafe9c9d2b",
+                            "ratePartId": "a26a60da-39d9-4b09-86f3-2971a1d45b87",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmLiabilityFactor",
                             "rateCategory": "Liability",
@@ -1785,7 +1155,7 @@
                             "value": "1.6"
                         },
                         {
-                            "ratePartId": "f1727f3c-5d6e-4fb0-ad5d-3b00b4bcb5a7",
+                            "ratePartId": "81066c66-7953-42c6-8148-cfa8dd9290cc",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmPipFactor",
                             "rateCategory": "PIP",
@@ -1796,7 +1166,7 @@
                             "value": "0"
                         },
                         {
-                            "ratePartId": "bac608c4-36c1-4b4a-b6f3-977b95faeacf",
+                            "ratePartId": "bbe21664-7c3e-42f4-b6a2-7e5c149f47d9",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmMedpayFactor",
                             "rateCategory": "MedPay",
@@ -1807,7 +1177,7 @@
                             "value": "1.6"
                         },
                         {
-                            "ratePartId": "2e0e558c-0ccc-4a03-90ad-f37c4ab39c21",
+                            "ratePartId": "dd5b6a75-3474-47c0-bc67-f42d74b98054",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmCollisionFactor",
                             "rateCategory": "Collision",
@@ -1818,7 +1188,7 @@
                             "value": "1.8"
                         },
                         {
-                            "ratePartId": "f4505e17-bf31-4830-8f3a-63084c950f89",
+                            "ratePartId": "39767777-2dab-45f5-bc4b-4ab349e04ff0",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmComprehensiveFactor",
                             "rateCategory": "Comprehensive",
@@ -1829,7 +1199,7 @@
                             "value": "1.8"
                         },
                         {
-                            "ratePartId": "573938d6-6136-4c89-b2e3-e3a6520bbd30",
+                            "ratePartId": "319b8ab5-c30e-42cb-8c4d-66aab0ae24a7",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmUMFactor",
                             "rateCategory": "UMBI",
@@ -1840,7 +1210,7 @@
                             "value": "3.0"
                         },
                         {
-                            "ratePartId": "2746a701-1a12-4d68-8703-fab54182c7bf",
+                            "ratePartId": "6c9ac1be-cc93-4b4e-ab80-f96b6b00fc3c",
                             "ratePartCategory": "Lost Cost Multiplier",
                             "rateName": "lcmUIMFactor",
                             "rateCategory": "UIMBI",

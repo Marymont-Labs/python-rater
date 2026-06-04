@@ -1,9 +1,14 @@
 # Python ISO Commercial Auto Rating Engine
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![AWS S3](https://img.shields.io/badge/AWS-S3-orange)
+
 ## Overview
 
-This is a dynamic commercial auto rating and pricing engine code in
-python and integrated with AWS S3 buckets. It solves the complicated
+A dynamic commercial auto rating and pricing engine written in Python
+and integrated with AWS S3. Solves the complex problem of pricing
+insurance quotes across multiple vehicles, drivers, and states using
+ISO's standardized rating framework. It solves the complicated
 problem of pricing an insurance quote for multiple vehicles, drivers,
 and states. This tool could be used by actuarial analysts to validate
 current rates and model changes to rates. It could be integrated
@@ -22,6 +27,20 @@ to invent their own pricing models from scratch. Most carriers use ISO's
 actuarial data, standard class code, territory codes and rating rules as a
 baseline. Carriers then adjust the rates with their own company-specific
 multipliers.
+
+## Design Philosophy: Universal Data Model Approach
+
+The starting point for the rater was harmonizing and flattening the data files provided
+by Verisk in their Excel-based rater. There are about 5 states that are notoriously
+complicated from a rating perspective. I asked myself a basic question: what if there a
+52nd (50 states plus Washington DC) state that had all of the most complicated
+elements of the other states? If we can solve for the hardest problem, then all the states
+will align. From this, I was able to create a universal data design such that the
+state-by-state files look identical and the structure supports both business auto and
+public auto. One key benefit of this approach, and why I think this rater is better than many,
+is that much of the logic is pushed to the data layer. In other words, there is no logic that
+says "if this state then do X, but if it is that state then do Y." A system like that would
+never get off the ground. It would be a nightmare to test.
 
 ## What This Engine Does
 
@@ -66,24 +85,13 @@ It also has the rating output included in the json file.
 - Amazon S3 bucket to store the rates files for OH, VA, and MD. It also stores other
   files/data to define default data elements as well as support or emulate an online
   quoting experience.
-- The starting point for the rater was harmonizing and flattening the data files provided
-  by Verisk in their Excel-based rater. There are about 5 states that are notoriously
-  complicated from a rating perspective. I asked myself a basic question: what if there a
-  52nd (50 states plus Washington DC) state that had all of the most complicated
-  elements of the other states? If we can solve for the hardest problem, then all the states
-  will align. From this, I was able to create a universal data design such that the
-  state-by-state files look identical and the structure supports both business auto and
-  public auto. One key benefit of this approach, and why I think this rater is better than many,
-  is that much of the logic is pushed to the data layer. In other words, there is no logic that
-  says "if this state then do X, but if it is that state then do Y." A system like that would
-  never get off the ground. It would be a nightmare to test.
 
 ## Insurance Domain Context And Related Production Experience
 
-This is a very close relica of a commercial auto rater I built
+This is a very close replica of a commercial auto rater I built
 for Forge Insurance to support a mid-term conversion. The original
 version was written in NextJS and JavaScript. It had API calls to
-LexisNexis for Commercial Data Prefill, Attact Scoring, and CLUE.
+LexisNexis for Commercial Data Prefill, Attract Scoring, and CLUE.
 There was also API calls to Verisk for Symbol rating and another
 API to VIN Audit to fetch vehicle values. There are attributes in the
 quote version, driver, and vehicle models that could collect the data
@@ -98,7 +106,6 @@ ingest .csv rate files and convert them to .json. It also supported a
 best-in-class commercial auto quote. I was motivated to recreate this in
 Python to improve my Python skills. I learned a lot about JavaScript when
 I wrote it the first time and I learned a lot by doing this in Python.
-Get better every day!
 
 ## Author
 

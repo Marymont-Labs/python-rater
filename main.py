@@ -29,7 +29,5 @@ def main():
     print(f"File successfully saved to {file_path}")    
 
     
-
-
 if __name__ == "__main__":
     main()
