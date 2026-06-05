@@ -142,9 +142,9 @@ RATE_PART_FETCHERS = [
     fetch_loss_cost_uimbi_rate,
 
     # ── Row 2: RACA Adjustment Factor ──────────────────────
-    # fetch_raca_ocp_liability_rate,
-    # fetch_raca_ocp_comprehensive_rate,
-    # fetch_raca_ocp_collision_rate,
+    fetch_raca_ocp_liability_rate,
+    fetch_raca_ocp_comprehensive_rate,
+    fetch_raca_ocp_collision_rate,
 
     # ── Row 3: Loss Cost Multiplier  ─────────────────────────
     fetch_lcm_liability_rate,
@@ -156,54 +156,54 @@ RATE_PART_FETCHERS = [
     fetch_lcm_uim_rate,
 
     # ── Row 4: Driver Score / Policy Tier ───────────────────
-    # fetch_policy_tier_liability_rate,
-    # fetch_policy_tier_pip_rate,
-    # fetch_policy_tier_medpay_rate,
-    # fetch_policy_tier_collision_rate,
+    fetch_policy_tier_liability_rate,
+    fetch_policy_tier_pip_rate,
+    fetch_policy_tier_medpay_rate,
+    fetch_policy_tier_collision_rate,
 
     # ── Row 5: Increased Limits Factor ──────────────────────
-    # fetch_increased_limits_liability_rate,
+    fetch_increased_limits_liability_rate,
 
     # ── Row 6: Primary and Secondary Class Factors  ─────────────────────────
-    # fetch_class_factor_liability_rate,
-    # fetch_class_factor_collision_rate,
-    # fetch_class_factor_comprehensive_rate,
+    fetch_class_factor_liability_rate,
+    fetch_class_factor_collision_rate,
+    fetch_class_factor_comprehensive_rate,
 
     # ── Row 7: Age Group Factor  ─────────────────────────
-    # fetch_age_group_liability_rate,
+    fetch_age_group_liability_rate,
 
     # ── Row 8: Fleet Size Factor  ─────────────────────────
-    # fetch_fleet_size_liability_factor,
-    # fetch_fleet_size_collision_factor,
-    # fetch_fleet_size_comprehensive_factor,
+    fetch_fleet_size_liability_factor,
+    fetch_fleet_size_collision_factor,
+    fetch_fleet_size_comprehensive_factor,
 
     # ── Row 9: NAICS Factor  ─────────────────────────
-    # fetch_naics_liability_factor,
-    # fetch_naics_collision_factor,
-    # fetch_naics_comprehensive_factor,
+    fetch_naics_liability_factor,
+    fetch_naics_collision_factor,
+    fetch_naics_comprehensive_factor,
 
     # ── Row 10: Deductible Factor  ─────────────────────────
-    # fetch_liability_deductible_factor,
-    # fetch_collision_deductible_factor,
-    # fetch_comprehensive_deductible_factor,
+    fetch_liability_deductible_factor,
+    fetch_collision_deductible_factor,
+    fetch_comprehensive_deductible_factor,
 
     # ── Row 11: Heavy Dumping Factor  ─────────────────────────
-    # fetch_dumping_collision_factor,
+    fetch_dumping_collision_factor,
 
     # ── Row 12: Original Cost New (OCN) Factor  ─────────────────────────
-    # fetch_ocn_liability_factor,
-    # fetch_ocn_collision_factor,
-    # fetch_ocn_comprehensive_factor,
+    fetch_ocn_liability_factor,
+    fetch_ocn_collision_factor,
+    fetch_ocn_comprehensive_factor,
 
 
     # ── Row 13: Rate Category Factor  ─────────────────────────
-    # fetch_rate_category_liability_factor,
-    # fetch_rate_category_medpay_factor, 
-    # fetch_rate_category_pip_factor, 
-    # fetch_rate_category_um_factor,  
-    # fetch_rate_category_uim_factor, 
-    # fetch_rate_category_collision_factor, 
-    # fetch_rate_category_comprehensive_factor,
+    fetch_rate_category_liability_factor,
+    fetch_rate_category_medpay_factor, 
+    fetch_rate_category_pip_factor, 
+    fetch_rate_category_um_factor,  
+    fetch_rate_category_uim_factor, 
+    fetch_rate_category_collision_factor, 
+    fetch_rate_category_comprehensive_factor,
 ]
 
 

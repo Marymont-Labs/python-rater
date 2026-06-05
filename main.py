@@ -16,9 +16,10 @@ def main():
     engine = RatingEngine()
     result = engine.rate(quote)
     result_json = json.dumps(result, indent=2)
-
-    print("******************** WRITING OUT JSON QUOTE AND RATING RESULT *****************************")
     print(result_json)
+
+    # print("******************** WRITING OUT JSON QUOTE AND RATING RESULT *****************************")
+    # print(result_json)
     output_folder = "./rating/sample_output"
     file_path = os.path.join(output_folder, "output_data.json")
     os.makedirs(output_folder, exist_ok=True)

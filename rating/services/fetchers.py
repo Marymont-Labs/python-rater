@@ -1,17 +1,8 @@
 import json
 
-from rating.services.s3_client import s3
+from rating.services.s3_client import s3, BUCKET_NAME
 from collections import defaultdict
 from datetime import date
-import os
-from dotenv import load_dotenv
-
-# Load variables from the .env file
-load_dotenv()
-
-
-BUCKET_NAME = os.getenv("BUCKET_NAME")
-
 
 def get_loss_cost_multiplier_by_zip(zip_code: str):
 
