@@ -64,7 +64,7 @@ Each quote version has one to many vehicles and drivers.
 
 ## Sample Output
 
-Look at rating/sample_output/data.json. This has both the
+Look at rating/sample_output/output_data.json. This has both the
 quote/quote_version/vehicles/drivers detail as the quote input.
 It also has the rating output included in the json file.
 
