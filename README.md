@@ -97,7 +97,7 @@ API to VIN Audit to fetch vehicle values. There are attributes in the
 quote version, driver, and vehicle models that could collect the data
 elements from these API calls. In this Python model, I am not making
 those API calls. Rather, I am just showing where those services
-would come into play
+would come into play.
 
 ## Finally...
 
@@ -105,7 +105,9 @@ The original rater was JavaScript-based, web-enabled, had capabilities to
 ingest .csv rate files and convert them to .json. It also supported a
 best-in-class commercial auto quote. I was motivated to recreate this in
 Python to improve my Python skills. I learned a lot about JavaScript when
-I wrote it the first time and I learned a lot by doing this in Python.
+I wrote it the first time and I learned a lot by doing this in Python. The 
+two implementations gave me a much deeper appreciation for how rating logic 
+translates across languages and platforms.
 
 ## Author
 
