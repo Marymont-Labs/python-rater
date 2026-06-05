@@ -10,10 +10,10 @@ and integrated with AWS S3. Solves the complex problem of pricing
 insurance quotes across multiple vehicles, drivers, and states using
 ISO's standardized rating framework.This tool could be used by actuarial
 analysts to validate current rates and model changes to rates. It is a
-faster and more nimble tool for creating, testing, anlyzing, and changing
+faster and more nimble tool for creating, testing, analyzing, and changing
 insurance rates than relying on expensive and rigid policy administrative
 systems. Yet, it could be integrated into policy administration systems like
-Majesco other pricing analytic systems like Hyperexponential.
+Majesco or other pricing analytic systems like Hyperexponential.
 
 ## Background: What is ISO Commercial Auto Rating?
 
@@ -32,8 +32,8 @@ multipliers.
 
 The starting point for the rater was harmonizing and flattening the data files provided
 by Verisk in their Excel-based rater. There are about 5 states that are notoriously
-complicated from a rating perspective. I asked myself a basic question: what if there a
-52nd (50 states plus Washington DC) state that had all of the most complicated
+complicated from a rating perspective. I asked myself a basic question: what if there
+were a 52nd (50 states plus Washington DC) state that had all of the most complicated
 elements of the other states? If we can solve for the hardest problem, then all the states
 will align. From this, I was able to create a universal data design such that the
 state-by-state files look identical (but contain different rates/factors) and the structure
@@ -76,7 +76,7 @@ It also has the rating output included in the json file.
   - configurable quote for multiple quote versions, one to many vehicles and drivers.
   - rating engine: vehicle_context, rating_engine, dataset_loader
   - rate_parts:loss cost, age group, primary & secondary classes, fleet size,
-    increased limits, naics, original cost new, liability and pd deductibes, policy tier,
+    increased limits, naics, original cost new, liability and pd deductibles, policy tier,
     raca adjustment, loss cost multipliers, truckload dumping
   - premium_calculator: premium calculated at the vehicle level to support a UI grid
     of coverage types as columns and rates and factors as rows
@@ -97,7 +97,7 @@ API to VIN Audit to fetch vehicle values. There are attributes in the
 quote version, driver, and vehicle models that could collect the data
 elements from these API calls. In this Python model, I am not making
 those API calls. Rather, I am just showing where those services
-would come into play
+would come into play.
 
 ## Finally...
 
@@ -105,7 +105,9 @@ The original rater was JavaScript-based, web-enabled, had capabilities to
 ingest .csv rate files and convert them to .json. It also supported a
 best-in-class commercial auto quote. I was motivated to recreate this in
 Python to improve my Python skills. I learned a lot about JavaScript when
-I wrote it the first time and I learned a lot by doing this in Python.
+I wrote it the first time and I learned a lot by doing this in Python. The
+two implementations gave me a much deeper appreciation for how rating logic
+translates across languages and platforms.
 
 ## Author
 
